@@ -18,9 +18,14 @@ body {
 	align-items: center;
 }
 
+.app-bar-logo {
+	font-weight: 700;
+}
+
 #logo {
 	margin: 0;
 	padding: 0;
+	width: 400px;
 }
 
 @keyframes line-anim {
@@ -28,6 +33,7 @@ body {
 		stroke-dashoffset: 0;
 	}
 }
+
 @keyframes fill-logo {
 	from {
 		fill: transparent;
