@@ -1,0 +1,111 @@
+:root {
+	--main-color: #283149;
+	--secondary-color: #404b69;
+	--accent-color: #00ccb1; /* #00818a */
+	--light-color: #dbedf3;
+	--background-color: var(--main-color);
+	--text-color: var(--light-color);
+}
+
+body {
+	/* font-family: 'Work Sans', sans-serif; */
+	font-family: "Poppins", sans-serif;
+	padding: 30px;
+	margin: 0;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	text-align: left;
+	align-items: center;
+}
+
+#logo {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes line-anim {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes fill-logo {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: white;
+	}
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading h1 {
+	font-size: 3rem;
+	margin: 0 20px;
+	font-weight: 400;
+}
+
+.profile-avatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	/* box-shadow: 0px 0px 47px -13px rgba(0, 0, 0, 0.50); */
+}
+
+.skills {
+	padding: 10% 0;
+}
+
+.skills-col {
+	padding: 0 8px;
+}
+
+.skills-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 95px;
+	background-color: #121620;
+	margin: 8px 0;
+}
+
+.skills-description {
+	flex: 1;
+}
+
+.skills-description h2 {
+	font-weight: 500;
+	margin: 0;
+	font-size: 1.5rem;
+	padding-bottom: 3px;
+}
+
+.skills-card p {
+	margin: 0;
+}
+
+.skills-icon {
+	color: var(--accent-color);
+	font-size: 50px;
+	margin: 15px;
+}
+
+.footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#social-icon {
+	margin: 10px 10px;
+	transition: color 0.4s;
+	color: rgba(156, 156, 156, 0.699);
+}
+
+#social-icon:hover {
+	color: rgb(207, 207, 207);
+}
